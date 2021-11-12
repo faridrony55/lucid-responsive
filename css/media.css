@@ -1,0 +1,218 @@
+/*@media(min-width: 1400px) xxl 
+@media(min-width: 1200px) xl  
+@media(min-width: 992px) lg  
+@media(min-width: 768px) md   
+@media(min-width: 576px) sm   
+@media(min-width: 0) xsm   */ 
+
+
+@media(max-width: 1399px){
+	
+}
+@media(max-width: 1199px){
+.feature .icon img {
+    width: 40px;
+    padding-bottom: 15px;
+}
+.feature .icon h3 {
+    font-size: 22px;
+}	
+.feature .icon p {
+    font-size: 16px; 
+}
+.details-contant .heading h2 { 
+    font-size: 30px; 
+    padding-bottom: 15px;
+    margin-bottom: 20px; 
+}
+.details-contant p{
+	padding-bottom: 5px;
+}
+.download-header h2 { 
+    font-size: 25px;
+}
+.price-plan h3{
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.price {
+    font-size: 40px; 
+    font-weight: 700;
+}
+.price sup {
+    font-size: 25px; 
+}
+.price-plan ul li p {
+    font-size: 18px; 
+    padding: 25px 0;
+}
+.price-plan{
+	margin-bottom: 40px;
+}
+}
+@media(max-width: 991px){
+
+
+	.hero-banner-contant h1 {
+		font-size: 25px;
+	}
+.hero-banner-contant {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.hero-banner .row{
+	align-items: flex-end !important;
+}
+.feature{
+	margin-bottom: 30px;
+}
+
+ .heading h2 {
+    font-size: 26px;
+    }
+  .heading span { 
+    font-size: 12px; 
+}
+.details-contant {
+    margin-top: 0;
+}
+.details-section .row{
+	align-items: center;
+}
+.details-contant p {
+    font-size: 16px;
+    }
+    .details-contant ul li span {
+    font-size: 16px;
+}
+.details-contant ul li img {
+    width: 16px;
+}
+.details1-section { 
+    padding: 25px 0;
+}
+.details1-section { 
+    padding: 35px 0;
+}
+.testimonial-section { 
+    padding: 50px 0; 
+}
+.carousel-caption p { 
+    font-size: 16px; 
+    padding-bottom: 20px;
+    margin-bottom: 0; 
+}
+.carousel-indicators { 
+    margin-bottom: 3rem; 
+}
+.download-header h2 {
+    font-size: 24px;
+}
+.download-section{
+	text-align: center;
+}
+}
+@media(max-width: 767px){
+	.navbar-nav { 
+    flex-direction: row;
+        justify-content: space-between;
+}
+.bannerimg img{
+	max-width: 300px;
+}
+.hero-banner-contant { 
+  text-align: center;
+}
+.details-img{
+	text-align: center;
+}
+.details-img img{
+
+	max-width: 300px;
+}
+.details-contant{
+	text-align: center;
+}
+.line::after,
+.line::before{
+	 left: 50%;
+    transform: translateX(-50%);
+}
+.carousel-caption p {
+    font-size: 14px;
+    padding-bottom: 15px; 
+} 
+.carousel-caption ul li strong {
+   
+    font-size: 12px;
+}
+.carousel-caption     ul li img{
+	padding-bottom: 15px;
+    padding-right: 10px;
+
+    width: 55px;
+}
+.carousel-indicators {
+    margin-bottom: 0rem;
+}
+.color-box { 
+    transform: translateY(0); 
+}
+.contact-section{
+    padding-bottom: 50px;
+
+}
+}
+@media(max-width: 575px){
+	.navbar-nav {
+    flex-direction: column; 
+   text-align: center;
+}
+.details-contant ul li {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.details-contant ul li img {
+    width: 30px;
+}
+.details-contant ul li span {
+    font-size: 17px;
+}
+.carousel-caption p { 
+    text-align: center;
+        font-size: 16px;
+}
+.carousel-caption     .nav {
+    justify-content: center; 
+}
+.contact-section {
+    padding-bottom: 0;
+}
+.ratio-21x9 {
+    --bs-aspect-ratio: 45%;
+}
+.download-section .btn{
+	margin-bottom: 10px;
+}
+.download-header h2 {
+    font-size: 22px;
+}
+ .heading h2 {
+     
+    font-size: 25px !important;
+    padding-bottom: 25px !important;
+}
+.testimonial-section .heading span {
+    
+    font-size: 12px;
+ 
+}
+
+}
+@media(max-width: 320px){
+	
+}
